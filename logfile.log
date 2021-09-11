@@ -1,0 +1,70 @@
+2021-08-14 13:12:15.663  INFO 13164 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 16 on DESKTOP-MEABOGG with PID 13164 (C:\Users\horko\OneDrive\Desktop\javaframeworkshw\hw5\demo\target\classes started by horko in C:\Users\horko\OneDrive\Desktop\javaframeworkshw\hw5\demo)
+2021-08-14 13:12:15.674  INFO 13164 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: local
+2021-08-14 13:12:15.968  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-14 13:12:15.968  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-14 13:12:18.450  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-14 13:12:18.614  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 3 JPA repository interfaces.
+2021-08-14 13:12:19.585  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-08-14 13:12:19.614  INFO 13164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-14 13:12:19.614  INFO 13164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-14 13:12:19.735  INFO 13164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-14 13:12:19.735  INFO 13164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3742 ms
+2021-08-14 13:12:19.807  INFO 13164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-14 13:12:20.086  INFO 13164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-14 13:12:20.096  INFO 13164 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-14 13:12:20.500  INFO 13164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-14 13:12:20.637  INFO 13164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-08-14 13:12:20.827  INFO 13164 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-14 13:12:21.044  INFO 13164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-14 13:12:22.143  INFO 13164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-14 13:12:22.152  INFO 13164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-14 13:12:22.238  INFO 13164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-14 13:12:22.725  WARN 13164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-14 13:12:22.971  INFO 13164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2021-08-14 13:12:22.983  INFO 13164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2021-08-14 13:12:22.985  INFO 13164 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2021-08-14 13:12:23.379  INFO 13164 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b569d96, org.springframework.security.web.context.SecurityContextPersistenceFilter@474c5178, org.springframework.security.web.header.HeaderWriterFilter@6b8e5c4a, org.springframework.security.web.authentication.logout.LogoutFilter@7fe4672a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@268d9519, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44544921, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46c7d973, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31b4bcb0, org.springframework.security.web.access.ExceptionTranslationFilter@78e7fd2e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4914f268]
+2021-08-14 13:12:23.402  INFO 13164 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2021-08-14 13:12:23.863  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-08-14 13:12:23.865  INFO 13164 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2021-08-14 13:12:23.866  INFO 13164 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@472523fb]]
+2021-08-14 13:12:23.866  INFO 13164 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2021-08-14 13:12:23.888  INFO 13164 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 9.269 seconds (JVM running for 13.12)
+2021-08-14 13:13:23.473  INFO 13164 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-08-14 13:24:10.723  INFO 13164 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-14 13:24:10.724  INFO 13164 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-14 13:24:10.728  INFO 13164 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-14 13:24:11.050  INFO 13164 --- [http-nio-9000-exec-4] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:24:11.050  INFO 13164 --- [http-nio-9000-exec-2] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:24:14.673  INFO 13164 --- [http-nio-9000-exec-7] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:24:14.673  INFO 13164 --- [http-nio-9000-exec-6] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:24:51.228  INFO 13164 --- [http-nio-9000-exec-3] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:24:51.228  INFO 13164 --- [http-nio-9000-exec-4] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:25:12.516  INFO 13164 --- [http-nio-9000-exec-6] c.e.demo.controllers.AccountController   : Was called account/put
+2021-08-14 13:27:18.688  INFO 13164 --- [http-nio-9000-exec-1] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:27:18.688  INFO 13164 --- [http-nio-9000-exec-4] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:27:19.619  INFO 13164 --- [http-nio-9000-exec-5] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:27:19.619  INFO 13164 --- [http-nio-9000-exec-7] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:27:34.800  INFO 13164 --- [http-nio-9000-exec-3] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:27:34.800  INFO 13164 --- [http-nio-9000-exec-1] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:28:25.810  INFO 13164 --- [http-nio-9000-exec-5] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:28:25.881  INFO 13164 --- [http-nio-9000-exec-10] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:28:27.186  INFO 13164 --- [http-nio-9000-exec-1] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:28:27.259  INFO 13164 --- [http-nio-9000-exec-2] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:28:27.590  INFO 13164 --- [http-nio-9000-exec-9] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:28:27.590  INFO 13164 --- [http-nio-9000-exec-8] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:32:16.064  INFO 13164 --- [http-nio-9000-exec-7] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:32:16.064  INFO 13164 --- [http-nio-9000-exec-2] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:32:16.114  INFO 13164 --- [http-nio-9000-exec-8] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:32:16.114  INFO 13164 --- [http-nio-9000-exec-10] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:43:23.487  INFO 13164 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[6 current WS(6)-HttpStream(0)-HttpPoll(0), 11 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(11)-CONNECTED(11)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 81], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 18], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2021-08-14 13:47:17.067  INFO 13164 --- [http-nio-9000-exec-6] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:47:17.131  INFO 13164 --- [http-nio-9000-exec-4] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:47:17.191  INFO 13164 --- [http-nio-9000-exec-8] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:47:17.201  INFO 13164 --- [http-nio-9000-exec-3] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:47:24.757  INFO 13164 --- [http-nio-9000-exec-2] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:47:24.757  INFO 13164 --- [http-nio-9000-exec-9] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:47:40.390  INFO 13164 --- [http-nio-9000-exec-8] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:47:40.402  INFO 13164 --- [http-nio-9000-exec-3] c.e.demo.controllers.CustomerController  : Was called customer/get
+2021-08-14 13:47:41.959  INFO 13164 --- [http-nio-9000-exec-1] c.e.demo.controllers.AccountController   : Was called account/get
+2021-08-14 13:47:41.959  INFO 13164 --- [http-nio-9000-exec-7] c.e.demo.controllers.CustomerController  : Was called customer/get

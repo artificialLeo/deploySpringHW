@@ -1,0 +1,51 @@
+server:
+  port : 9000
+
+
+spring:
+  profiles:
+    active: local
+logging:
+  file:
+    path: log
+    name: logfile.log
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    initialization-mode: always
+
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    generate-ddl: true
+  h2:
+    console:
+      enabled: true
+      path: /console
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:postgresql://hattie.db.elephantsql.com:5432/mgdumnkh
+    username: mgdumnkh
+    password: 4qv9M64DohG2eZY4X5cJsWX1v-J1Y59S
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    generate-ddl: true
